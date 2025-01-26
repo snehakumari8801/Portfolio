@@ -1,68 +1,3 @@
-// import React from "react";
-// import port1 from "../images/port1.jpg";
-// import port7 from "../images/port-profile-2.jpg";
-
-// function Projects() {
-//   return (
-//     <div className="mt-[650px] sm:mt-20 pl-16 pr-16 mb-10 sm:mb-0">
-//       <h1 className=" text-3xl sm:text-5xl font-medium text-red-400 flex justify-center">
-//         Recent Projects
-//       </h1>
-//       <div className="flex flex-col mt-8 sm:flex-row sm:flex sm:justify-between gap-5 sm:gap-20 ">
-//         <div>
-//           <img src={port1} className="w-3/4 mt-12" alt=""></img>
-//         </div>
-//         <div className="pt-2 sm:pt-10 gap-2 sm:gap-0 ">
-//           <h2 className="text-2xl text-red-500">Ecommerce website</h2>
-//           <p>
-//             Developed a fully functional ecommerce platform utilizing HTML,
-//             CSS JavaScript, and React JS.Key features include product listing
-//             with descriptions, add to cart functionality, and a responsive
-//             design.
-//           </p>
-//           <a href="https://66437715dad2f73a66783042--keen-manatee-26f77c.netlify.app/">
-//           <button className="w-20 bg-gray-600 text-white mt-3 sm:mt-20 ">Demo</button>
-//           </a>
-//           <a href="https://github.com/snehakumari8801/Ecommerce_Website">
-//           <button className="w-20 bg-gray-600 text-white mt-3 sm:mt-20 ml-5 sm:ml-10">
-//             Repo
-//           </button>
-//           </a>
-//         </div>
-//       </div>
-
-//       <div className="flex flex-col sm:flex-row sm:flex sm:justify-between gap-5 sm:gap-20">
-//         <div>
-//           <img src={port7} className="w-3/4 sm:mt-12 mt-40" alt=""></img>
-//         </div>
-//         <div className="pt-2 sm:pt-10 gap-2 sm:gap-0">
-//           <h2 className="text-2xl text-red-500">Movix</h2>
-//           <div>
-//             Designed and implemented a movie search application with video
-//             playback functionality. Technologies used: HTML, CSS, JAVASCRIPT,
-//             REACT JS, REDUX. Features include search functionality for movies
-//             video playback, and a responsive layout.
-//           </div>
-//           <a href="https://movix-red-sigma.vercel.app/">
-//           <button className="w-20 bg-gray-600 text-white mt-3 sm:mt-20 ">Demo</button>
-//           </a>
-//           <a href="https://github.com/snehakumari8801/movix">
-//           <button className="w-20 bg-gray-600 text-white sm:mt-20 ml-5 sm:ml-10">
-//             Repo
-//           </button>
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Projects;
-
-
-
-
-
 import React from "react";
 import port1 from "../images/port1.jpg";
 import port7 from "../images/redss.jpg";
@@ -76,7 +11,6 @@ function Projects() {
         Recent Projects
       </h1>
 
-      {/* First Project - Ecommerce Website */}
       <div className="flex flex-col sm:flex-row sm:justify-between gap-5 sm:gap-20 mt-8">
         <div className="w-full sm:w-1/2">
           <img
@@ -117,7 +51,6 @@ function Projects() {
         </div>
       </div>
 
-      {/* Second Project - Movix */}
       <div className="flex flex-col sm:flex-row sm:justify-between gap-5 sm:gap-20 mt-12">
         <div className="w-full sm:w-1/2">
           <img
@@ -161,7 +94,6 @@ function Projects() {
         </div>
       </div>
 
-      {/*Third Project */}
       <div className="flex flex-col sm:flex-row sm:justify-between gap-5 sm:gap-20 mt-12">
         <div className="w-full sm:w-1/2">
           <img
@@ -171,12 +103,15 @@ function Projects() {
           />
         </div>
         <div className="w-full sm:w-1/2 pt-4 sm:pt-10">
-          <h2 className="text-2xl text-red-500 font-semibold">Chat-App (Frontend + Backend)</h2>
+          <h2 className="text-2xl text-red-500 font-semibold">
+            Chat-App (Frontend + Backend)
+          </h2>
           <p className="mt-3 text-white">
-          This project demonstrates a real-time chat application built using the MERN stack 
-          (MongoDB, Express, React.js, and Node.js) with Socket.io for live messaging 
-          functionality. The app allows users to sign up, log in, and create or edit groups,
-           as well as manage group members by adding or removing people.
+            This project demonstrates a real-time chat application built using
+            the MERN stack (MongoDB, Express, React.js, and Node.js) with
+            Socket.io for live messaging functionality. The app allows users to
+            sign up, log in, and create or edit groups, as well as manage group
+            members by adding or removing people.
           </p>
           <div className="flex gap-5 mt-6">
             <a
@@ -205,5 +140,3 @@ function Projects() {
 }
 
 export default Projects;
-
-
